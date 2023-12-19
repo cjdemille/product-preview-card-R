@@ -43,7 +43,7 @@ p {
 
 @media screen and (min-width: 768px) {
   .u-margin-bottom-small {
-    margin-bottom: 2.5rem; } }
+    margin-bottom: 2rem; } }
 
 .card {
   width: 90%;
@@ -91,7 +91,7 @@ p {
   .card {
     height: 42rem; }
   .card-text {
-    padding: 2rem 1rem; }
+    padding: 1.5rem; }
   .img-mobile {
     display: none; }
   .card-img-box {
