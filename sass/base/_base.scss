@@ -4,5 +4,31 @@
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    border: 1px solid red;
+    // border: 1px solid red;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+
+    background-color: $color-secondary;
+}
+
+main {
+    display: relative;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    display: absolute;
+    transform: translateY(95vh);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }

@@ -1,1 +1,140 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
 
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  background-color: #F2EAE2; }
+
+main {
+  display: relative; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  display: absolute;
+  transform: translateY(95vh); }
+
+.attribution a {
+  color: #3e52a3; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.4rem; }
+
+h1 {
+  font-family: 'Fraunces', serif;
+  font-size: 3.2rem;
+  color: #1C232B; }
+
+p {
+  line-height: 1.6;
+  color: #6C7289; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1rem; }
+
+@media screen and (min-width: 768px) {
+  .u-margin-bottom-small {
+    margin-bottom: 2.5rem; } }
+
+.card {
+  width: 90%;
+  margin: 0 auto;
+  position: absolute;
+  border-radius: 1.5rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding-bottom: 1rem;
+  height: 80vh; }
+
+.card-text {
+  padding: 1rem; }
+  .card-text__tag {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #6C7289; }
+  .card-text__price-chart {
+    display: flex;
+    align-items: center; }
+  .card-text__price--sale {
+    font-family: 'Fraunces', serif;
+    font-size: 3.2rem;
+    color: #3D8168;
+    margin-right: 1rem; }
+  .card-text__price--base {
+    text-decoration: line-through; }
+
+.card-img-box {
+  width: 100%;
+  border-top-right-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+  overflow: hidden; }
+  .card-img-box img {
+    width: 100%; }
+
+.img-desktop {
+  display: none; }
+
+@media screen and (min-width: 768px) {
+  .card {
+    height: 42rem; }
+  .card-text {
+    padding: 2rem 1rem; }
+  .img-mobile {
+    display: none; }
+  .card-img-box {
+    width: 100%;
+    height: 42rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 0;
+    background-image: url(../images/image-product-desktop.jpg);
+    background-size: cover; } }
+
+.btn:link, .btn:visited {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  background-color: #3D8168;
+  color: #fff;
+  border-radius: .5rem;
+  width: 100%;
+  padding: 1rem 0;
+  margin: 0 auto;
+  transition: all .3s;
+  font-size: 1.4rem; }
+  .btn:link:hover, .btn:visited:hover {
+    background-color: #1A4032; }
+  .btn:link:active, .btn:visited:active {
+    transform: translateY(0.25rem); }
+
+.row {
+  width: 90%;
+  margin: 0 auto; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row .col-1-of-2 {
+    font-size: 1.6rem;
+    width: 100%; }
+
+@media screen and (min-width: 768px) {
+  .row {
+    max-width: 60rem; }
+    .row .col-1-of-2 {
+      float: left;
+      font-size: 1.6rem;
+      width: 50%; } }
